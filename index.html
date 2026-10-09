@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Argonaut Motor — pilihan motor classic dan cafe racer dengan karakter, cerita, dan craftsmanship." />
+  <title>Argonaut Motor — Built for the Long Way</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="announcement">
+    <span>EST. FOR THE OPEN ROAD</span>
+    <span class="announcement-dot">✳</span>
+    <span>Classic spirit. Modern soul.</span>
+  </div>
+
+  <header class="site-header">
+    <a class="brand" href="#home" aria-label="Argonaut Motor beranda">
+      <span class="brand-mark">A<span>✳</span></span>
+      <span class="brand-name">ARGONAUT <small>MOTOR CO.</small></span>
+    </a>
+    <button class="menu-toggle" aria-label="Buka navigasi" aria-expanded="false">
+      <span></span><span></span>
+    </button>
+    <nav class="main-nav" aria-label="Navigasi utama">
+      <a href="#collection">Collection</a>
+      <a href="#story">Our Story</a>
+      <a href="#craft">The Craft</a>
+      <a href="#visit">Visit Us</a>
+    </nav>
+    <a class="header-cta" href="#visit">Find Your Ride <span>↗</span></a>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-image"></div>
+      <div class="hero-overlay"></div>
+      <div class="hero-content">
+        <p class="eyebrow light"><span></span> FOR THOSE WHO TAKE THE SCENIC ROUTE</p>
+        <h1>Ride with<br><em>character.</em></h1>
+        <p class="hero-copy">Bukan sekadar kendaraan. Temukan motor yang punya cerita, dibuat untuk perjalanan yang berarti.</p>
+        <div class="hero-actions">
+          <a class="button button-gold" href="#collection">Explore Collection <span>↗</span></a>
+          <a class="text-link light-link" href="#story">Discover our story <span>→</span></a>
+        </div>
+      </div>
+      <div class="hero-side-note">CLASSIC MOTORCYCLES · INDONESIA</div>
+      <div class="hero-bottom">
+        <span>01 / 03</span>
+        <span class="hero-line"></span>
+        <span>THE ART OF THE RIDE</span>
+      </div>
+    </section>
+
+    <section class="intro section-pad">
+      <div class="intro-label"><span class="small-star">✳</span> THE ARGONAUT PHILOSOPHY</div>
+      <div class="intro-main">
+        <h2>Some things are<br>better <em>unhurried.</em></h2>
+        <div class="intro-text">
+          <p>Di tengah dunia yang serba cepat, kami percaya pada perjalanan yang dinikmati perlahan. Pada mesin yang punya jiwa, detail yang punya maksud, dan jalan yang selalu menyimpan cerita.</p>
+          <a class="text-link dark-link" href="#story">More about Argonaut <span>→</span></a>
+        </div>
+      </div>
+    </section>
+
+    <section class="collection section-pad" id="collection">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow"><span></span> HANDPICKED MACHINES</p>
+          <h2>Find your <em>kind of wild.</em></h2>
+        </div>
+        <a class="text-link dark-link desktop-link" href="#visit">View all motorcycles <span>→</span></a>
+      </div>
+      <div class="filters" role="group" aria-label="Filter koleksi motor">
+        <button class="filter-btn active" data-filter="all">All machines <span>06</span></button>
+        <button class="filter-btn" data-filter="classic">Classic <span>03</span></button>
+        <button class="filter-btn" data-filter="cafe">Cafe racer <span>03</span></button>
+      </div>
+
+      <div class="bike-grid">
+        <article class="bike-card" data-category="cafe">
+          <a class="bike-image" href="#visit" aria-label="Tanya tentang The Renegade">
+            <img src="https://images.unsplash.com/photo-1558981806-ec527fa84c39?auto=format&fit=crop&w=1000&q=85" alt="Motor bergaya cafe racer dengan karakter vintage" loading="lazy">
+            <span class="bike-tag">CAFE RACER</span><span class="image-arrow">↗</span>
+          </a>
+          <div class="bike-info"><div><h3>The Renegade</h3><p>Raw lines. Restless spirit.</p></div><span class="bike-number">01</span></div>
+          <div class="bike-meta"><span>250 CC CLASS</span><span>ASK FOR PRICE</span></div>
+        </article>
+        <article class="bike-card" data-category="classic">
+          <a class="bike-image" href="#visit" aria-label="Tanya tentang The Wayfarer">
+            <img src="https://images.unsplash.com/photo-1558981403-c5f9899a28bc?auto=format&fit=crop&w=1000&q=85" alt="Motor klasik dengan siluet elegan" loading="lazy">
+            <span class="bike-tag">CLASSIC</span><span class="image-arrow">↗</span>
+          </a>
+          <div class="bike-info"><div><h3>The Wayfarer</h3><p>Timeless by nature.</p></div><span class="bike-number">02</span></div>
+          <div class="bike-meta"><span>350 CC CLASS</span><span>ASK FOR PRICE</span></div>
+        </article>
+        <article class="bike-card" data-category="cafe">
+          <a class="bike-image" href="#visit" aria-label="Tanya tentang The Outrider">
+            <img src="https://images.unsplash.com/photo-1449426468159-d96dbf08f19f?auto=format&fit=crop&w=1000&q=85" alt="Motor custom bergaya retro" loading="lazy">
+            <span class="bike-tag">CAFE RACER</span><span class="image-arrow">↗</span>
+          </a>
+          <div class="bike-info"><div><h3>The Outrider</h3><p>Made to take the long way.</p></div><span class="bike-number">03</span></div>
+          <div class="bike-meta"><span>400 CC CLASS</span><span>ASK FOR PRICE</span></div>
+        </article>
+        <article class="bike-card" data-category="classic">
+          <a class="bike-image" href="#visit" aria-label="Tanya tentang The Nomad">
+            <img src="https://images.unsplash.com/photo-1558980394-0c9c4c6c8a3c?auto=format&fit=crop&w=1000&q=85" alt="Detail motor klasik untuk perjalanan" loading="lazy">
+            <span class="bike-tag">CLASSIC</span><span class="image-arrow">↗</span>
+          </a>
+          <div class="bike-info"><div><h3>The Nomad</h3><p>Quiet confidence.</p></div><span class="bike-number">04</span></div>
+          <div class="bike-meta"><span>250 CC CLASS</span><span>ASK FOR PRICE</span></div>
+        </article>
+        <article class="bike-card" data-category="cafe">
+          <a class="bike-image" href="#visit" aria-label="Tanya tentang The Switchback">
+            <img src="https://images.unsplash.com/photo-1558981806-ec527fa84c39?auto=format&fit=crop&w=1000&q=85&sat=-35" alt="Motor cafe racer dengan tampilan minimalis" loading="lazy">
+            <span class="bike-tag">CAFE RACER</span><span class="image-arrow">↗</span>
+          </a>
+          <div class="bike-info"><div><h3>The Switchback</h3><p>Built for the unexpected.</p></div><span class="bike-number">05</span></div>
+          <div class="bike-meta"><span>500 CC CLASS</span><span>ASK FOR PRICE</span></div>
+        </article>
+        <article class="bike-card" data-category="classic">
+          <a class="bike-image" href="#visit" aria-label="Tanya tentang The Old Soul">
+            <img src="https://images.unsplash.com/photo-1568772585407-9361f9bf3a87?auto=format&fit=crop&w=1000&q=85" alt="Motor bergaya retro klasik" loading="lazy">
+            <span class="bike-tag">CLASSIC</span><span class="image-arrow">↗</span>
+          </a>
+          <div class="bike-info"><div><h3>The Old Soul</h3><p>Old soul, new stories.</p></div><span class="bike-number">06</span></div>
+          <div class="bike-meta"><span>350 CC CLASS</span><span>ASK FOR PRICE</span></div>
+        </article>
+      </div>
+      <p class="collection-note">Koleksi ditampilkan sebagai referensi gaya. Ketersediaan, spesifikasi, dan harga dapat berubah.</p>
+    </section>
+
+    <section class="story" id="story">
+      <div class="story-photo">
+        <img src="https://images.unsplash.com/photo-1519608487953-e999c86e7455?auto=format&fit=crop&w=1400&q=85" alt="Jalan terbuka saat senja" loading="lazy">
+        <div class="photo-caption">TAKE THE ROAD LESS TRAVELLED</div>
+      </div>
+      <div class="story-content">
+        <p class="eyebrow"><span></span> A LITTLE ABOUT US</p>
+        <h2>Made for the<br><em>ones who wander.</em></h2>
+        <p class="story-copy">Argonaut Motor lahir dari kecintaan pada desain yang jujur, mesin yang punya karakter, dan kebebasan untuk memilih jalan sendiri.</p>
+        <p class="story-copy">Kami mengkurasi motor classic dan cafe racer untuk pengendara yang melihat lebih dari sekadar spesifikasi. Karena motor yang tepat bukan hanya tentang ke mana kamu pergi, tapi bagaimana rasanya sampai di sana.</p>
+        <a class="button button-outline" href="#visit">Meet Argonaut <span>↗</span></a>
+        <div class="signature">The road is yours. <span>— Argonaut</span></div>
+      </div>
+    </section>
+
+    <section class="craft section-pad" id="craft">
+      <div class="craft-top">
+        <p class="eyebrow"><span></span> DETAILS MATTER</p>
+        <h2>Character is in<br>the <em>craft.</em></h2>
+        <p>Setiap motor punya bahasa desainnya sendiri. Kami memperhatikan detail yang membuatnya terasa berbeda—dari siluet tangki hingga sentuhan akhir.</p>
+      </div>
+      <div class="craft-grid">
+        <div class="craft-item"><span class="craft-icon">✳</span><span class="craft-no">01 / FORM</span><h3>Honest design</h3><p>Garis yang bersih, proporsi yang seimbang, dan bentuk yang tak lekang oleh waktu.</p></div>
+        <div class="craft-item"><span class="craft-icon">↗</span><span class="craft-no">02 / FEEL</span><h3>Mechanical soul</h3><p>Karakter mesin dan pengalaman berkendara yang terasa personal.</p></div>
+        <div class="craft-item"><span class="craft-icon">✦</span><span class="craft-no">03 / FINISH</span><h3>Considered details</h3><p>Detail kecil yang menyatukan tampilan, fungsi, dan karakter motor.</p></div>
+      </div>
+    </section>
+
+    <section class="visit" id="visit">
+      <div class="visit-pattern"></div>
+      <div class="visit-content">
+        <p class="eyebrow light"><span></span> YOUR NEXT CHAPTER STARTS HERE</p>
+        <h2>Find the one<br>that <em>feels like you.</em></h2>
+        <p>Ceritakan motor impianmu. Kami bantu kamu mulai perjalanan berikutnya.</p>
+        <a class="button button-cream" id="contact-link" href="https://wa.me/" target="_blank" rel="noopener">Talk to our team <span>↗</span></a>
+        <span class="visit-small">BY APPOINTMENT · CLASSIC & CAFE RACER</span>
+      </div>
+      <div class="visit-stamp">A<br>M<br><span>✳</span></div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <a class="brand footer-brand" href="#home">
+      <span class="brand-mark">A<span>✳</span></span>
+      <span class="brand-name">ARGONAUT <small>MOTOR CO.</small></span>
+    </a>
+    <p>For the road, and everything beyond it.</p>
+    <div class="footer-links"><a href="#collection">Collection</a><a href="#story">Our Story</a><a href="#visit">Contact</a></div>
+    <div class="footer-bottom"><span>© <span id="year"></span> ARGONAUT MOTOR CO.</span><span>RIDE YOUR OWN WAY <b>✳</b></span></div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
